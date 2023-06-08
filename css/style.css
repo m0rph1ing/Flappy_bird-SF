@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  margin: 0 auto;
+  width: 431px;
+}
+
+canvas {
+      border: 1px solid #000;
+      background-color: #70c5ce;
+      display: block;
+      margin: 0 auto;
+}
+
