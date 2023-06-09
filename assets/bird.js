@@ -84,7 +84,6 @@ class Bird {
       this.y = canvas.height - fg.fg.sH - this.size[1] / 2;
       if (state.current === state.game) {
         state.current = state.over;
-        SOUNDS.DIE.play();
       }
     }
   }

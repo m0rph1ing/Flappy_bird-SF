@@ -15,7 +15,7 @@ const DEGREE = Math.PI/180;
 
 // подгружаем картиночку
 const sprite = new Image();
-sprite.src = "images/spriteFB.png";
+sprite.src = "../images/spriteFB.png";
 
 // состояния игры
 const state = {

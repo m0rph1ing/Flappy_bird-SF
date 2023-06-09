@@ -52,7 +52,6 @@ checkCollision() {
 
       score.currentScore += 1;
       pipe.isCounted = true;
-      SOUNDS.SCORE.play();
       // помещаем значение рекорда в локальное хранилище, записываем его
       score.highScore = Math.max(score.currentScore, score.highScore);
       localStorage.setItem("highScore", score.highScore);
